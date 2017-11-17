@@ -1,0 +1,243 @@
+body{
+	background-color:#171414;
+	margin:0px;
+	width: 100vw;
+	height: 100vh;
+}
+
+@media screen and (min-width: 900px){
+	.space-flex{
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		height: inherit;
+	}
+	
+	.sun{
+		height: calc(90vh/2);
+		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.sol{
+		content:url("sun/sun.png");
+		height: inherit;
+		width:inherit;
+	}
+
+	.mercury{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.venus{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.earth{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.mars{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.jupiter{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.saturn{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.uranus{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.neptune{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.pluto{
+		height: calc(90vh/2);
+		background-color: #fff;
+	}
+
+	.blank{
+		height: calc(90vh/4);
+	}
+	
+	.box{
+		height: 90vh;
+		width: 7vw;
+		margin: 15px;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.n0{
+		background-color:#f28b00;
+	}
+	
+	.n1{
+		background-color:#646362;
+	}
+	
+	.n2{
+		background-color:#b51100;
+	}
+	
+	.n3{
+		background-color:#035c72;
+	}
+	
+	.n4{
+		background-color:#bb4a05;
+	}
+	
+	.n6{
+		background-color:#aa6808;
+	}
+	
+	.n7{
+		background-color:#d39945;
+	}
+	
+	.n8{
+		background-color:#5acce0;
+	}
+	
+	.n9{
+		background-color:#2f6cb8;
+	}
+	
+	.n10{
+		background-color:#b7b9bb;
+	}
+}
+
+@media screen and (max-width: 890px){
+	.space-flex{
+		display:block;
+		height: inherit;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.box{
+		height: 40vh;
+		width: 100vw;
+		margin: 2px;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.sun{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.mercury{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.venus{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.earth{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.mars{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.jupiter{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.saturn{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.uranus{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.neptune{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.pluto{
+		height: calc(40vh/2);
+		background-color: #fff;
+	}
+
+	.blank{
+		height: calc(40vh/4);
+	}
+	
+	.n0{
+		background-color:#f28b00;
+	}
+	
+	.n1{
+		background-color:#646362;
+	}
+	
+	.n2{
+		background-color:#b51100;
+	}
+	
+	.n3{
+		background-color:#035c72;
+	}
+	
+	.n4{
+		background-color:#bb4a05;
+	}
+	
+	.n5{
+		background-color:#7b531f;
+	}
+	
+	.n6{
+		background-color:#aa6808;
+	}
+	
+	.n7{
+		background-color:#d39945;
+	}
+	
+	.n8{
+		background-color:#5acce0;
+	}
+	
+	.n9{
+		background-color:#2f6cb8;
+	}
+	
+	.n10{
+		background-color:#b7b9bb;
+	}
+}
