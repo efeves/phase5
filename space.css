@@ -5,12 +5,56 @@ body{
 	height: 100vh;
 }
 
+.sol{
+	content:url("sun/sun.png");		
+}
+
+.p1{
+	content:url("mercury/mercury.png");
+}
+
+.p2{
+	content:url("venus/venus.png");
+}
+
+.p3{
+	content:url("earth/earth.png");
+}
+
+.p4{
+	content:url("mars/mars.png");
+}
+
+.p5{
+	content:url("jupiter/jupiter.png");
+}
+
+.p6{
+	content:url("saturn/saturn.png");
+}
+
+.p7{
+	content:url("uranus/uranus.png");
+}
+
+.p8{
+	content:url("neptune/neptune.png");
+}
+
+.p9{
+	content:url("pluto/pluto.png");
+}
+
 @media screen and (min-width: 900px){
 	.space-flex{
 		display: flex;
 		flex-wrap: nowrap;
 		align-items: center;
 		justify-content: center;
+		height: inherit;
+	}
+	
+	img{
 		height: inherit;
 	}
 	
@@ -21,57 +65,97 @@ body{
 		flex-wrap: nowrap;
 		align-items: center;
 		justify-content: center;
+		overflow: hidden;
 	}
 	
-	.sol{
-		content:url("sun/sun.png");
-		height: inherit;
-		width:inherit;
-	}
-
 	.mercury{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.venus{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.earth{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.mars{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.jupiter{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.saturn{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.uranus{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.neptune{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.pluto{
 		height: calc(90vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.blank{
@@ -135,6 +219,10 @@ body{
 		justify-content: center;
 	}
 	
+	img{
+		height: 60vh;
+	}
+	
 	.box{
 		height: 40vh;
 		width: 100vw;
@@ -146,51 +234,93 @@ body{
 	.sun{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap:nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.mercury{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		flex-wrap:nowrap;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.venus{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.earth{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.mars{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.jupiter{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.saturn{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.uranus{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.neptune{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.pluto{
 		height: calc(40vh/2);
 		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 	}
 
 	.blank{
